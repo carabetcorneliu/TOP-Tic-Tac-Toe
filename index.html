@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Tic Tac Toe Game</title>
+</head>
+
+<body>
+
+    <div class="bodyContainer">
+        <div class="headerContainer">
+            <!-- <h1>tic tac - tic tac - tic tac toe</h1> -->
+        </div>
+        <div class="contentContainer">
+            <div class="greetingContainer">
+                <button type="button" class="players" id="changeNameP1">
+                    <div><img class="winsP1" src="./images/109086900-winner-vector-icon-isolated-on-transparent-background-winner-logo-concept.jpg"><span id="p1counter">0 wins</span></div>
+                    <label>(click to change) (X)</label>
+                    <h2>Player One</h2>
+                </button>
+                <button type="button" class="players" id="changeNameP2">
+                    <div><span id="p2counter">0 wins</span><img  class="winsP2" src="./images/109086900-winner-vector-icon-isolated-on-transparent-background-winner-logo-concept.jpg"></div>
+                    <label>(O) (click to change)</label>
+                    <h2>Player Two</h2>
+                </button>
+                <div></div>
+            </div>
+            <div class="gameContainerRow">
+                <div class="gameContainer">
+                    <div id="1"></div>
+                    <div id="2"></div>
+                    <div id="3"></div>
+                    <div id="4"></div>
+                    <div id="5"></div>
+                    <div id="6"></div>
+                    <div id="7"></div>
+                    <div id="8"></div>
+                    <div id="9"></div>
+                </div>
+                <div></div>
+            </div>
+            <div class="buttons">
+                <div class="firstRow">
+                        First Move
+                        <button type="button" id="X" disabled>X</button>
+                        <button type="button" id="O">O</button>
+                </div>
+                <div>
+                    <button type="button" id="newGame">new game</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
